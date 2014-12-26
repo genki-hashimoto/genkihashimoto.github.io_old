@@ -106,3 +106,5 @@ activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'master'
 end
+
+set set_title, '橋本玄基のブログ'
