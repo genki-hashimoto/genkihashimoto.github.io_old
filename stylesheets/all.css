@@ -1,0 +1,47 @@
+body {
+margin: 0;
+padding: 0;
+background-color: #ffffff; /* ページの背景色 */
+color: #000000; /* 全体の文字色 */
+font-size: 100%; /* 全体の文字サイズ */
+}
+
+/* --- 全体のリンクテキスト --- */
+a:link { color: #0000ff; }
+a:visited { color: #800080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff0000; }
+
+/* --- コンテナ --- */
+#container {
+width: 780px; /* ページの幅 */
+margin: 0 auto; /* センタリング */
+background: url(sidebar_200.gif) repeat-y left; /* サイドバーの背景画像 */
+background-color: #ffffff; /* メインカラムの背景色 */
+border-left: 1px #c0c0c0 solid; /* 左の境界線 */
+border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+}
+
+/* --- ヘッダ --- */
+#header {
+background-color: #ffe080; /* ヘッダの背景色 */
+}
+
+/* --- ナビゲーション --- */
+#nav {
+float: left;
+width: 200px; /* サイドバーの幅 */
+}
+
+/* --- メインカラム --- */
+#main {
+float: left;
+width: 580px; /* メインカラムの幅 */
+}
+
+/* --- フッタ --- */
+#footer {
+clear: left; /* フロートのクリア */
+width: 100%;
+background-color: #ffe080; /* フッタの背景色 */
+}
