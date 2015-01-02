@@ -16,7 +16,6 @@ a:active { color: #ff0000; }
 #container {
 width: 780px; /* ページの幅 */
 margin: 0 auto; /* センタリング */
-background: url(sidebar_200.gif) repeat-y left; /* サイドバーの背景画像 */
 background-color: #ffffff; /* メインカラムの背景色 */
 border-left: 1px #c0c0c0 solid; /* 左の境界線 */
 border-right: 1px #c0c0c0 solid; /* 右の境界線 */
@@ -31,6 +30,7 @@ background-color: #ffe080; /* ヘッダの背景色 */
 #nav {
 float: left;
 width: 200px; /* サイドバーの幅 */
+background-color: #FAFAFA;
 }
 
 /* --- メインカラム --- */
