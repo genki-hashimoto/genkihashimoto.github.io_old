@@ -78,7 +78,7 @@ page "/feed.xml", layout: false
 #   end
 # end
 
-set :css_dir, '/css'
+set :css_dir, 'css'
 
 set :js_dir, 'js'
 
