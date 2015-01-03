@@ -14,12 +14,11 @@ a:active { color: #ff0000; }
 
 /* --- コンテナ --- */
 #container {
-width: 780px; /* ページの幅 */
+width: 96%; /* ページの幅 */
 margin: 0 auto; /* センタリング */
-background: url(sidebar_200.gif) repeat-y left; /* サイドバーの背景画像 */
 background-color: #ffffff; /* メインカラムの背景色 */
-border-left: 1px #c0c0c0 solid; /* 左の境界線 */
-border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+border-left: auto; /* 左の境界線 */
+border-right: auto; /* 右の境界線 */
 }
 
 /* --- ヘッダ --- */
@@ -28,15 +27,16 @@ background-color: #ffe080; /* ヘッダの背景色 */
 }
 
 /* --- ナビゲーション --- */
-#nav {
+#side {
 float: left;
-width: 200px; /* サイドバーの幅 */
+width: 29%; /* サイドバーの幅 */
+background-color: #FAFAFA;
 }
 
 /* --- メインカラム --- */
 #main {
 float: left;
-width: 580px; /* メインカラムの幅 */
+width: 70%; /* メインカラムの幅 */
 }
 
 /* --- フッタ --- */
