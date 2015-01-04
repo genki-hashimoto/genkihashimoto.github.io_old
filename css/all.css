@@ -28,7 +28,7 @@ background-color: #ffe080; /* ヘッダの背景色 */
 
 /* --- ナビゲーション --- */
 #side {
-float: left;
+float: right;
 width: 29%; /* サイドバーの幅 */
 background-color: #FAFAFA;
 }
@@ -41,7 +41,7 @@ width: 70%; /* メインカラムの幅 */
 
 /* --- フッタ --- */
 #footer {
-clear: left; /* フロートのクリア */
+clear: both; /* フロートのクリア */
 width: 100%;
 background-color: #ffe080; /* フッタの背景色 */
 }
