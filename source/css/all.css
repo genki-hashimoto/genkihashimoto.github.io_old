@@ -25,7 +25,7 @@ border-right: auto; /* 右の境界線 */
 /* --- ヘッダ --- */
 #header {
 background-color: #ffe080; /* ヘッダの背景色 */
-font-family: fantasy;
+font-family: sans-serif;
 }
 
 /* --- ナビゲーション --- */
