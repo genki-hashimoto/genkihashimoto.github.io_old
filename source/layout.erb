@@ -36,9 +36,13 @@
       <h3>年</h3>
       <ol>
         <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-          <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+        <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
         <% end %>
       </ol>
+    </div>
+
+    <div id="footer">
+      © 2014 GenkiHashimoto
     </div>
     </div>
   </body>
