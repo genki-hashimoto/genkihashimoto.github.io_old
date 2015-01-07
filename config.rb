@@ -22,6 +22,7 @@ activate :blog do |blog|
 
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
+  blog.summary_separator = /(READMORE)/
 
   # Enable pagination
   # blog.paginate = true
