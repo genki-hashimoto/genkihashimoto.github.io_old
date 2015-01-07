@@ -8,6 +8,15 @@ font-family: serif;
 }
 
 /* --- 全体のリンクテキスト --- */
+a.title_link {
+	text-decoration: none;
+	color: #000000;
+}
+a.title_link:visited{
+	text-decoration: none;
+	color: #000000;
+}
+
 a:link { color: #0000ff; }
 a:visited { color: #800080; }
 a:hover { color: #ff0000; }
