@@ -6,6 +6,7 @@
     <title> 橋本玄基のブログ  <%= ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <link rel="stylesheet" type="text/css" href="/css/all.css">
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
   <div id="container">
